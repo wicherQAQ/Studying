@@ -1,3 +1,6 @@
+#Java文件的读写
+
+## 字节输入输出流复制文件
 ```
 public static void main(String[] args) {
     long s = System.currentTimeMillis();
@@ -33,6 +36,7 @@ public static void main(String[] args) {
 	}
 }
 ```
+
 ## buffered缓冲流高效文件复制代码
 ```
 public static void copy_4(File src,File desc)throws IOException{
